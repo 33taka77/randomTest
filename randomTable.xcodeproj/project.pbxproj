@@ -13,6 +13,7 @@
 		81EB74E71B33E2D500D183E3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81EB74E61B33E2D500D183E3 /* Images.xcassets */; };
 		81EB74EA1B33E2D500D183E3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 81EB74E81B33E2D500D183E3 /* LaunchScreen.xib */; };
 		81EB74F61B33E2D500D183E3 /* randomTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB74F51B33E2D500D183E3 /* randomTableTests.swift */; };
+		81EB75001B33E71F00D183E3 /* RandomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81EB74FF1B33E71F00D183E3 /* RandomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		81EB74EF1B33E2D500D183E3 /* randomTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = randomTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81EB74F41B33E2D500D183E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81EB74F51B33E2D500D183E3 /* randomTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = randomTableTests.swift; sourceTree = "<group>"; };
+		81EB74FF1B33E71F00D183E3 /* RandomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RandomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				81EB74DF1B33E2D500D183E3 /* AppDelegate.swift */,
 				81EB74E11B33E2D500D183E3 /* ViewController.swift */,
 				81EB74E31B33E2D500D183E3 /* Main.storyboard */,
+				81EB74FF1B33E71F00D183E3 /* RandomTableViewCell.swift */,
 				81EB74E61B33E2D500D183E3 /* Images.xcassets */,
 				81EB74E81B33E2D500D183E3 /* LaunchScreen.xib */,
 				81EB74DD1B33E2D500D183E3 /* Supporting Files */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81EB75001B33E71F00D183E3 /* RandomTableViewCell.swift in Sources */,
 				81EB74E21B33E2D500D183E3 /* ViewController.swift in Sources */,
 				81EB74E01B33E2D500D183E3 /* AppDelegate.swift in Sources */,
 			);
